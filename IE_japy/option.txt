@@ -1,0 +1,78 @@
+#オプション
+
+開始位置=開始@2|始まり@2|開始位置
+
+start = x  @option
+開始位置はxとする
+xから始める
+
+step = x   @option
+間隔はxにする
+
+encoding = x   @option
+エンコーディングはxとする
+x(エンコーディング)を用いる
+
+encoding = 'utf-8'   @option
+UTF8を用いる
+
+errors = x   @option
+エラー処理はxとする
+xをエラー処理ポリシーとする
+
+errors = 'strict'    @option
+エラー処理[は|を]厳密にする
+
+errors = 'ignore'   @option
+エラー処理[は|を]しない
+
+mode = 'b'  @option
+モードは'b'にする
+バイナリモードを用いる
+
+buffering = -1   @option
+バッファリングしない
+
+buffering = x  @option
+バッファリングのサイズはxにする
+
+sep = s   @option
+セパレータはsにする
+セパレータとしてsを用いる
+
+end = ''  @option
+改行しない
+
+end = s  @option
+改行文字はsにする
+改行の代わりにsを用いる
+
+file = x   @option
+出力先はxとする
+出力先としてxを用いる
+
+flush = False   @option
+フラッシュ[は|を]行わない
+フラッシュしない
+
+flush = True    @option
+フラッシュを行う
+
+byteorder = 'big'  @option
+バイトオーダーはビックエンディアンとする
+ビックエンディアンを用いる
+
+byteorder = 'little'   @option
+バイトオーダーはリトルエンディアンとする
+リトルエンディアンを用いる
+
+fillchar = c  @option
+パディングはc(文字)にする
+c(文字)で埋める
+
+tabsize = x　　@option
+タブは空白x文字分とする
+
+
+
+
